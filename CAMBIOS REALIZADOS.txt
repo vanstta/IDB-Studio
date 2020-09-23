@@ -1,0 +1,2 @@
+-Agregué descipción y keywords a cada página, adaptándolos según el contenido de cada una.
+-Cambié los títulos, en todos los casos era "IDB Studio" y ahora todos son distintos.
