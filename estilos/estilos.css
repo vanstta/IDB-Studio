@@ -484,8 +484,8 @@ ul li h2 {
 
 /* cursos */ 
 .cursos_fotos {
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 3%;
 }
 .consulta {
@@ -581,9 +581,12 @@ section input {
      width: 30%;
      justify-content: center;
      margin-left: 35%;
-     margin-top: 2px;
+     margin-top: 8px;
     }   
-
+.card-title {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+}
 .cover-small {
         height: 250px;
         background-blend-mode: normal;
