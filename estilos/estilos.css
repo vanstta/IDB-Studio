@@ -1135,7 +1135,7 @@ header nav {
     height: 215px;
     position: absolute;
     top: 900px;
-    left: 30px;
+    left: 8%;
 }
 
 .titulo_serv1 {
@@ -1159,7 +1159,7 @@ text-align: center;
     height: 217px;
     position: absolute;
     top: 950px;
-    left: 30px;
+    left: 8%;
     
 }
 
@@ -1169,7 +1169,7 @@ text-align: center;
     height: 180px;
     width: 250px;
     position: absolute;
-    left: 30px;
+    left: 8%;
 }
 
 .titulo_serv2 {
@@ -1279,7 +1279,7 @@ text-align: center;
     border: 1px solid #E3C5BB;
 }
 
-
+/*Esto corresponde a mobile, iPhone 6,7 y 8. Me falta trabajar sobre la medida de una tablet*/ 
 
 
 
