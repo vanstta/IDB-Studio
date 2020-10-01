@@ -80,6 +80,9 @@ header div a img{
     background-blend-mode: darken;
 }
 
+.navbar {
+    display: none;
+}
 
 .menu {
     display: flex;
@@ -96,10 +99,6 @@ ul {
     list-style-type: none;
 }
 
-.open,
-.close {
-    display: none;
-}
 nav ul {
     color: white;
     text-decoration: none;
@@ -581,7 +580,7 @@ section input {
      width: 30%;
      justify-content: center;
      margin-left: 35%;
-     margin-top: 2px;
+     margin-top: 4px;
     }   
 .card-title {
     font-family: 'Merriweather', serif;
@@ -898,16 +897,37 @@ div h1 {
 .row {
     display: flex;
     flex-direction: column;
+    
 }
 
+.final {
+margin-top: 1850px;
+}
 header nav {
     display: none;
 
 }
 .logo, 
-.redes  {
-
+.redes,
+.nav_desk {
     display: none;
+}
+
+.navbar {
+    display: inline-flex;
+    margin-top: 20%;
+ 
+}
+
+.nav-link {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#navbarSupportedContent {
+    background-color: black;
+    width: 100px;
+    height: 300px;
 }
 
 /*index*/
@@ -1014,7 +1034,7 @@ header nav {
 }
 
 .rect_fotos {
-   margin-top: -249%;
+   margin-top: -237%;
    margin-left: -4px;
    border: solid 1px white;
 }
@@ -1107,17 +1127,15 @@ header nav {
 .serv {
     display: flex;
     flex-direction: column;
-    margin-bottom: 500px;
-   margin-left: 20px;
-   margin-right: 20px;
    
 }
 
 .rectangulo1 {
-    width: 315px;
+    width: 300px;
     height: 215px;
-    margin-left: 28px;
-    margin-bottom: 30px;
+    position: absolute;
+    top: 900px;
+    left: 30px;
 }
 
 .titulo_serv1 {
@@ -1127,38 +1145,139 @@ header nav {
 
 .p_serv1 {
 margin-top: 4%;
-text-align: center;
-align-items: center;
 padding: 0;
 margin-left: 0;
+font-size: 17px;
+padding-left: 18px;
+padding-right: 18px;
+text-align: center;
 }
 
 .img_serv1 {
-    margin-top: -122%;
-    margin-left: 28px;
+    
     width: 290px;
     height: 217px;
+    position: absolute;
+    top: 950px;
+    left: 30px;
     
 }
 
 .rect_servicios1 {
     border: solid 1px white;
-    margin-top: -59%;
-    margin-left: 47px;
+    top: 946px;
     height: 180px;
     width: 250px;
-    margin-bottom: 30px;
+    position: absolute;
+    left: 30px;
+}
+
+.titulo_serv2 {
+    position: absolute;
+    top: 1200px;
+    left: 50px;
+    display: inline;
+   justify-content: center;
+    margin: 0;
+    font-size: 22px;
+}
+
+.p_serv2 {
+    position: absolute;
+    top: 1250px;
+    text-align: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin: 0;
+    font-size: 17px;
+    
 }
 
 .img_serv2 {
-   
-    margin-top: -70%;
+    position: absolute;
+    top: 1350px;
+    left: 28px;
   
 }
 
+.rect_servicios2 {
+    position: absolute;
+    top: 1352px;
+    left: 30px;
+    border: 1px solid silver;
+}
 
+.titulo_serv3 {
+    position: absolute;
+    top: 1570px;
+    font-size: 22px;
+    left: 80px;
+}
 
+.p_serv3 {
+    position: absolute;
+    top: 1742px;
+    margin: 0;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.rectangulo3 {
+    position: absolute;
+    top: 1810px;
+    width: 280px;
+    left: 15px;
+    height: 175px;
+}
 
+.img_serv3 {
+    position: absolute;
+    top: 1810px;
+    width: 280px;
+    height: 187px;
+    left: 25px;
+}
+
+.rect_servicios3 {
+    position: absolute;
+    top: 1810px;
+    width: 249px;
+    height: 149px;
+    left: 25px;
+    border: solid 1px white;
+}
+
+.titulo_serv4 {
+    position: absolute;
+    top: 1930px;
+    font-size: 22px;
+    left: 22px;
+}
+
+.p_serv4 {
+    position: absolute;
+    top: 2165px;
+    margin: 0;
+    font-size: 17px;
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+}
+
+.img_serv4 {
+    position: absolute;
+    top: 2200px;
+    left: 25px;
+}
+
+.rect_servicios4 {
+    position: absolute;
+    top: 2250px;
+    left: 25px;
+    border: 1px solid #E3C5BB;
+}
 
 
 
