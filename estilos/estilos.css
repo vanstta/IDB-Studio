@@ -920,7 +920,7 @@ margin-top: 1850px;
 .lista {
     position: absolute;
     width: 50%;
-    height: 82.5vh;
+    height: 100vh;
     background: rgb(20, 20, 20);
     top: 50px;
     display: flex;
