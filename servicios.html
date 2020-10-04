@@ -12,14 +12,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 
 <body>
     <header>
-        <div class="menu">
-            <p class="logo"> <a href="index.html">IDB Studio</a> </p>
-            <nav class="nav nav_desk">
+       
+            <nav class="nav">
+                <input type="checkbox" id="check" >
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label ><a id="logo" href="index.html">IDB Studio</a></label>
                 <ul class="lista">
                     <li>
                         <a href="servicios.html">SERVICIOS</a>
@@ -31,22 +36,22 @@
                         <a href="galeria.html">GALERÍA</a>
                     </li>
                     <li>
-                        <a href="index.html#sobrenosotras">SOBRE NOSOTRAS</a>
+                        <a href="index.html #sobrenosotras">SOBRE NOSOTRAS</a>
                     </li>
                     <li>
                         <a href="contacto.html">CONTACTO</a>
                     </li>
                 </ul>
+                <div class="redes">
+                    <a href="#"> <img class="icon" src="images/ig.jpg" alt="logo IG">
+                    </a>
+                    <a href="#"> <img class="icon" src="images/fb.jpg" alt="logo FB">
+                    </a>
+                    <a href="#"> <img class="icon" src="images/pt.jpg" alt="logo Pinterest">
+                    </a>
+                </div>
             </nav>
-            
-            <div class="redes">
-                <a href="#"> <img class="icon" src="images/ig.jpg" alt="logo IG">
-                </a>
-                <a href="#"> <img class="icon" src="images/fb.jpg" alt="logo FB">
-                </a>
-                <a href="#"> <img class="icon" src="images/pt.jpg" alt="logo Pinterest">
-                </a>
-            </div>
+      
         </div>
         <div class="encabezado cover servicios d-flex justify-content-center align-items-center flex-column">
             <h1 class="secundario">relax</h1>
