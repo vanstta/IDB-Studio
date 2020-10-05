@@ -144,7 +144,7 @@ text-decoration: none;
 
 .contacto {
     height: 550px;
-    background-image: url(../images/contactodos.jpg) ;
+    background-image: url(../images/portadacontacto.jpg) ;
     background-size: cover;
     background-position: center;
     background-color: rgba(0,0, 0, 0.25);
@@ -605,7 +605,7 @@ section input {
      width: 30%;
      justify-content: center;
      margin-left: 35%;
-     margin-top: 4px;
+     margin-top: 10px;
     }   
 .card-title {
     font-family: 'Merriweather', serif;
@@ -615,7 +615,9 @@ section input {
         height: 250px;
         background-blend-mode: normal;
 }
-
+.mb-4 {
+    margin-top: 25px;
+}
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	 animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -710,13 +712,13 @@ section input {
     display: flex;
     justify-content: center;
     grid-area: 2 / 1 / 3 / 2;
-    margin-top: 34%;
-    margin-right: 6%;
+    margin-top: 23%;
+    margin-right: 7%;
 }  
 
 .p_serv2 {
     grid-area: 2 / 1 / 3 / 2;
-    margin-left: 2%;
+    margin-right: 7%;
     margin-top: 45%;
     font-size: 18px;
 
@@ -738,11 +740,11 @@ section input {
 
 .rectangulo3 {
     height: 220px;
-    width: 340px;
+    width: 350px;
     background-color: silver;
     grid-area: 3 / 1 / 4 / 2 ;
     margin-top: 16%;
-    margin-left: 4%;
+    margin-left: 1.5%;
 }
 .rect_servicios3 {
     width: 315px;
@@ -761,14 +763,14 @@ section input {
     justify-content: start;
     grid-area: 3 / 2 / 4 / 3;
    margin-top: 34%;
-   margin-left: 6%;
+   margin-left: 4%;
 }
 
 .p_serv3 {
     grid-area: 3 / 2 / 4 / 3;
     padding-left: 10px;
     margin-top: 45%;
-    margin-left: 5%;
+    margin-left: 2%;
     font-size: 18px;
 }
 
@@ -784,14 +786,15 @@ section input {
     display: flex;
     justify-content: center;
     grid-area: 4 / 1 / 5 / 2;
-   margin-top: 50%;
- 
+   margin-top: 47%;
+    margin-right: 8%;
 }  
 
 .p_serv4 {
     grid-area: 4 / 1 / 5 / 2;
     margin-top: 71%;
-    font-size: 18px;
+    font-size: 17.8px;
+    margin-right: 9%;
 }
 
 .img_serv4 {
@@ -899,8 +902,8 @@ section input {
 }
 
 .galeria_imagenes {
-    margin-top: 3%;
-    margin-bottom: 5%;
+    margin-top: 6%;
+    margin-bottom: 6%;
     
 }
 
@@ -1004,6 +1007,10 @@ left: 0;
 
 
 /*index*/
+
+.rosa_index {
+    left:20%;
+}
 .subtitulo_index {
     font-family: 'Merriweather', serif;
     font-size: 25px;
@@ -1041,7 +1048,7 @@ left: 0;
 
 .articulo p {
     font-size: 17px;
-    margin-left: 10%;
+    margin-left: 6%;
 }
 
 .formulario {
@@ -1089,8 +1096,10 @@ left: 0;
 }
 
 .p_form {
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: -5px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .equipo {
