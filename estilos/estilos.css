@@ -1400,11 +1400,14 @@ display: none;
 }
 
 .enviar_cont {
-    background-color: black;
+    background-color: grey;
     border-radius: 0;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    color: white;
+    padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 10px;
+   width: 30%;
+   margin-left: 35%;
 }
 
 .final_contacto {
