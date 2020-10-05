@@ -1390,7 +1390,10 @@ display: none;
 .enviar {
     background-color: #0f0f0f;
     border-radius: 0;
-    
+    position: absolute;
+    top: 160%;
+    left: 4px;
+    margin-bottom: 30px;
 }
 
 .contactar {
@@ -1401,7 +1404,9 @@ display: none;
     text-align: center;
 }
 
-
+.final_contacto {
+    margin-top: 40px;
+}
 
 
 /*Esto corresponde a mobile, iPhone 6,7 y 8. Me falta trabajar sobre la medida de una tablet*/ 
