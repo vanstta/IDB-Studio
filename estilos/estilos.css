@@ -1009,7 +1009,7 @@ left: 0;
 /*index*/
 
 .rosa_index {
-    left:20%;
+    left: 32%;
 }
 .subtitulo_index {
     font-family: 'Merriweather', serif;
@@ -1020,18 +1020,26 @@ left: 0;
     justify-content: center;
 }
 
+
+
 .articulo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
    
 .articulo img {
-    margin-top: -62%;
+    margin-top: -58%;
     width: 270px;
     height: 180px;
     margin-left: 20px;
+}
+
+.titulo_article {
+    margin-top: 32px;
+    margin-left: 8px;
 }
 
 .rectangulo {
@@ -1127,83 +1135,6 @@ left: 0;
    border: solid 1px white;
 }
 
-/*galería*/
-
-.resaltado {
-    
-    font-family: 'Merriweather', serif;
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.galeria_movil {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-/*contacto*/
-
-.form_contacto {
-    width: 100%;
-    border: none;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.datos {
-    flex-direction: column;
-    margin-top: -20px;
-}
-
-.nombre {
-    margin-top: 10px;
-    padding: 0;
-}
-
-.mensaje_contacto {
-    width: 100%;
-    height: 180px;
-    padding-bottom: 100px;
-}
-
-.enviar {
-    background-color: #0f0f0f;
-    border-radius: 0;
-    margin-bottom: 50px;
-}
-
-.contactar {
-    
-    justify-content: center;
-    font-size: 18px;
-    margin-left: 8%;
-    
-    text-align: center;
-}
-
-.cont {
-    color: none;
-
-  padding-top: 40px;
-}
-
-/*cursos*/
-
-.form_cursos  {
-    border: none;
-    margin-left: 0;
-    width: 100%;
-    margin-bottom: 200px;
-}
-.mail {
-    flex-direction: column;
-    margin-top: -18px;
-}
 /*servicios*/
 
 .serv {
@@ -1212,11 +1143,16 @@ left: 0;
    
 }
 
+.rosa_serv {
+left: 29.5%;
+top: 99.2%;
+}
+
 .rectangulo1 {
     width: 300px;
     height: 215px;
     position: absolute;
-    top: 900px;
+    top: 890px;
     left: 8%;
 }
 
@@ -1230,8 +1166,8 @@ margin-top: 4%;
 padding: 0;
 margin-left: 0;
 font-size: 17px;
-padding-left: 18px;
-padding-right: 18px;
+padding-left: 28px;
+padding-right: 28px;
 text-align: center;
 }
 
@@ -1256,7 +1192,7 @@ text-align: center;
 
 .titulo_serv2 {
     position: absolute;
-    top: 1200px;
+    top: 1195px;
     left: 50px;
     display: inline;
    justify-content: center;
@@ -1266,10 +1202,10 @@ text-align: center;
 
 .p_serv2 {
     position: absolute;
-    top: 1250px;
+    top: 1242px;
     text-align: center;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 28px;
+    padding-right: 28px;
     margin: 0;
     font-size: 17px;
     
@@ -1277,39 +1213,43 @@ text-align: center;
 
 .img_serv2 {
     position: absolute;
-    top: 1350px;
-    left: 28px;
-  
+    top: 1342px;
+    left: 9%;
+    width: 76%;
 }
 
 .rect_servicios2 {
     position: absolute;
-    top: 1352px;
-    left: 30px;
+    top: 1345px;
+    right: 8%;
     border: 1px solid silver;
+    width: 75%;
+    height: 34%;
 }
 
 .titulo_serv3 {
     position: absolute;
-    top: 1570px;
+    top: 1560px;
     font-size: 22px;
-    left: 80px;
+    left: 85px;
+    
 }
 
 .p_serv3 {
     position: absolute;
-    top: 1742px;
+    top: 1732px;
     margin: 0;
     font-size: 17px;
     text-align: center;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 28px;
+    padding-right: 28px;
+    
 }
 .rectangulo3 {
     position: absolute;
     top: 1810px;
     width: 280px;
-    left: 15px;
+    left: 24px;
     height: 175px;
 }
 
@@ -1332,34 +1272,145 @@ text-align: center;
 
 .titulo_serv4 {
     position: absolute;
-    top: 1930px;
+    top: 1940px;
     font-size: 22px;
     left: 22px;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-align: center;
 }
 
 .p_serv4 {
     position: absolute;
-    top: 2165px;
+    top: 2190px;
     margin: 0;
     font-size: 17px;
     width: 100%;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 28px;
+    padding-right: 28px;
     text-align: center;
 }
 
 .img_serv4 {
     position: absolute;
-    top: 2200px;
+    top: 2230px;
     left: 25px;
 }
 
 .rect_servicios4 {
     position: absolute;
-    top: 2250px;
+    top: 2280px;
     left: 25px;
     border: 1px solid #E3C5BB;
 }
+/*cursos*/
+
+.rosa_cursos {
+    left: 32%;
+    top: 99.4%;
+    }
+    
+.form_cursos  {
+        border: none;
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 200px;
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+    
+.contactar_curso {
+        margin-top: 40px;
+        background-color: none;
+        padding: 0;
+    }
+    
+.mail {
+        flex-direction: column;
+        margin-top: -15px;
+    }
+    
+/*galería*/
+
+.rosa_galeria {
+left: 32%;
+top: 97.8%;
+}
+
+.resaltado {
+    
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria_movil {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+/*contacto*/
+
+
+.rosa_contacto {
+left: 29%;
+top: 97.5%;
+}
+
+.form_contacto {
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.datos {
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.nombre {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.mensaje_contacto {
+    width: 100%;
+    height: 180px;
+    padding-bottom: 100px;
+    padding-left: 5px;
+    
+}
+
+.enviar {
+    background-color: #0f0f0f;
+    border-radius: 0;
+    margin-bottom: 50px;
+}
+
+.contactar {
+    
+    justify-content: center;
+    font-size: 18px;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.cont {
+    color: none;
+
+  padding-top: 40px;
+}
+
 
 /*Esto corresponde a mobile, iPhone 6,7 y 8. Me falta trabajar sobre la medida de una tablet*/ 
 
