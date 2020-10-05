@@ -1009,7 +1009,7 @@ left: 0;
 /*index*/
 
 .rosa_index {
-    left: 32%;
+    display: none;
 }
 .subtitulo_index {
     font-family: 'Merriweather', serif;
@@ -1144,8 +1144,7 @@ left: 0;
 }
 
 .rosa_serv {
-left: 29.5%;
-top: 99.2%;
+    display: none;
 }
 
 .rectangulo1 {
@@ -1306,8 +1305,7 @@ text-align: center;
 /*cursos*/
 
 .rosa_cursos {
-    left: 32%;
-    top: 99.4%;
+    display: none;
     }
     
 .form_cursos  {
@@ -1323,6 +1321,7 @@ text-align: center;
         margin-top: 40px;
         background-color: none;
         padding: 0;
+        font-size: 17px;
     }
     
 .mail {
@@ -1333,8 +1332,7 @@ text-align: center;
 /*galería*/
 
 .rosa_galeria {
-left: 32%;
-top: 97.8%;
+    display: none;;
 }
 
 .resaltado {
@@ -1359,8 +1357,7 @@ top: 97.8%;
 
 
 .rosa_contacto {
-left: 29%;
-top: 97.5%;
+display: none;
 }
 
 .form_contacto {
