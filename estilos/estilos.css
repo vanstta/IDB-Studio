@@ -125,16 +125,16 @@ text-decoration: none;
 
 .cursos {
     height: 550px;
-    background-image: url(../images/cursocoverr.jpg) ;
+    background-image: url(../images/portadacursos.jpg) ;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-color: rgba(0,0, 0, 0.25);
     background-blend-mode: darken;
 }
 
 .galeria {
     height: 550px;
-    background-image: url(../images/galeriacover.jpg) ;
+    background-image: url(../images/galeriaportada.jpg) ;
     background-size: cover;
     background-position: center;
     background-color: rgba(0,0, 0, 0.25);
@@ -144,7 +144,7 @@ text-decoration: none;
 
 .contacto {
     height: 550px;
-    background-image: url(../images/contatcocover.jpg) ;
+    background-image: url(../images/contactodos.jpg) ;
     background-size: cover;
     background-position: center;
     background-color: rgba(0,0, 0, 0.25);
@@ -171,13 +171,12 @@ div .secundario {
 
 .resaltado{
     font-family: 'Merriweather', serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 50px;
     margin-left: 45%;
     margin-bottom: 50px;
     text-align: center ;
-    background-color: #E3C5BB;
     width: 10%;
     height: 9px;
 }
@@ -231,6 +230,16 @@ ul button {
 
 
 /*index*/ 
+
+.rosa_index {
+    position: absolute;
+    background-color:  #E3C5BB;
+    width: 135px;
+    height: 20px;
+    left: 45%;
+    top: 676px;
+}
+
 .subtitulo_index {
     font-family: 'Merriweather', serif;
     font-size: 25px;
@@ -370,6 +379,8 @@ p {
     width: 500px;
 height: 40px;
 border-radius: 5px;
+border: solid 1px rgb(102, 98, 98);
+padding-left: 5px;
 }
 
 section ul li img {
@@ -413,7 +424,7 @@ section ul li img {
     border: solid 0.5px white;
     width: 220px;
     height: 220px;
-    margin-top: -190px;
+    margin-top: -188px;
     margin-left: 15px;
 }
 
@@ -422,7 +433,7 @@ section ul li img {
     border: solid 0.5px white;
     width: 220px;
     height: 220px;
-    margin-top: -190px;
+    margin-top: -188px;
     margin-left: 15px;
 }
 
@@ -431,7 +442,7 @@ section ul li img {
     border: solid 0.5px white;
     width: 220px;
     height: 220px;
-    margin-top: -190px;
+    margin-top: -188px;
     margin-left: 15px;
 }
 
@@ -486,6 +497,16 @@ ul li h2 {
             
 
 /* cursos */ 
+
+.rosa_cursos {
+    position: absolute;
+    background-color:  #E3C5BB;
+    width: 135px;
+    height: 10px;
+    left: 45%;
+    top: 665px;
+}
+
 .cursos_fotos {
     margin-left: 15%;
     margin-right: 15%;
@@ -627,6 +648,15 @@ section input {
   
      /*servicios*/ 
 
+.rosa_serv {
+    position: absolute;
+    background-color:  #E3C5BB;
+    width: 153px;
+    height: 10px;
+    left: 44.4%;
+    top: 665px;
+}
+
 .serv {
     display: grid;
     grid-template-columns: 400px 400px;
@@ -640,7 +670,7 @@ section input {
     width: 380px;
     background-color: #dbb7aa;
     grid-area: 1 / 1 / 2 / 2 ;
-    margin-top: 8%;
+    margin-top: 11%;
     margin-left: 4%;
 }
 .rect_servicios1 {
@@ -715,8 +745,8 @@ section input {
     margin-left: 4%;
 }
 .rect_servicios3 {
-    width: 300px;
-    height: 200px;
+    width: 315px;
+    height: 195px;
     border: solid 3px white;
     grid-area: 3 / 1 / 4 / 2 ;
     margin-left: 5%;
@@ -781,6 +811,15 @@ section input {
 
  /*CONTACTO*/
  
+ .rosa_contacto {
+    position: absolute;
+    background-color:  #E3C5BB;
+    width: 157px;
+    height: 10px;
+    left: 44%;
+    top: 665px;
+}
+
  .contact {
      display: flex;
      justify-content: center;
@@ -850,6 +889,15 @@ section input {
 
 /*GALERIA*/
  
+.rosa_galeria {
+    position: absolute;
+    background-color:  #E3C5BB;
+    width: 135px;
+    height: 10px;
+    left: 45%;
+    top: 665px;
+}
+
 .galeria_imagenes {
     margin-top: 3%;
     margin-bottom: 5%;
