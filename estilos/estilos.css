@@ -1400,7 +1400,7 @@ display: none;
 }
 
 .enviar_cont {
-    background-color: grey;
+    background-color: red;
     border-radius: 0;
     color: white;
     padding-top: 10px;
@@ -1408,10 +1408,11 @@ display: none;
     margin-top: 10px;
    width: 30%;
    margin-left: 35%;
+   margin-bottom: 20px;
 }
 
 .final_contacto {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 /*Esto corresponde a mobile, iPhone 6,7 y 8. Me falta trabajar sobre la medida de una tablet*/ 
 
