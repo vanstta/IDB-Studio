@@ -1386,11 +1386,6 @@ display: none;
     padding-bottom: 100px;
 }
 
-.enviar {
-    background-color: blue;
-    border-radius: 0;
-    
-}
 
 .contactar {
     
@@ -1401,10 +1396,11 @@ display: none;
     text-align: center;
 }
 
-.cont {
-    color: none;
-
-  padding-top: 40px;
+.enviar_cont {
+    background-color: pink;
+    border-radius: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .final_contacto {
