@@ -1397,16 +1397,13 @@ display: none;
 }
 
 .enviar_cont {
-    background-color: orange;
+    background-color: black;
     border-radius: 0;
     margin-bottom: 20px;
     margin-top: 20px;
     padding-bottom: 10px;
 }
 
-.final_contacto {
-    margin-top: 60px;
-}
 
 /*Esto corresponde a mobile, iPhone 6,7 y 8. Me falta trabajar sobre la medida de una tablet*/ 
 
