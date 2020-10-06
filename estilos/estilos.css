@@ -1363,13 +1363,12 @@ display: none;
 .form_contacto {
     margin-top: 20px;
     width: 100%;
-   
-    border: none;
+    height: 420px;
     display: flex;
     flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
-    
+    border: solid 1px green;
 
 }
 
@@ -1400,12 +1399,11 @@ display: none;
 }
 
 .enviar_cont {
-    background-color: black;
+    background-color: red;
     border-radius: 0;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
+    padding-top: 8px;
+    padding-bottom: 8px;
    width: 30%;
    margin-left: 35%;
   
