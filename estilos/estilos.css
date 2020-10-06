@@ -1312,6 +1312,8 @@ text-align: center;
 .enviar {
    background-color: black;
    border-radius: 0;
+width: 30%;
+font-size: 15px;
 }
 .form_cursos  {
         border: none;
