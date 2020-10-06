@@ -1312,7 +1312,7 @@ text-align: center;
 .enviar {
    background-color: black;
    border-radius: 0;
-width: 30%;
+width: 33%;
 font-size: 15px;
 }
 .form_cursos  {
@@ -1411,7 +1411,7 @@ display: none;
     color: white;
     padding-top: 8px;
     padding-bottom: 8px;
-   width: 30%;
+   width: 33%;
    margin-left: 35%;
   margin-top: 10px;
 }
