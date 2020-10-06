@@ -1308,6 +1308,11 @@ text-align: center;
     display: none;
     }
     
+
+.enviar {
+   background-color: black;
+   border-radius: 0;
+}
 .form_cursos  {
         border: none;
         margin-left: 0;
@@ -1368,7 +1373,7 @@ display: none;
     flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
-    border: solid 1px blue;
+    border: none;
 
 }
 
