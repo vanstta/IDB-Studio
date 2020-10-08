@@ -560,12 +560,12 @@ ul li h2 {
     justify-content: center;
     grid-area: 2 / 1 / 3 / 2;
     margin-top: 23%;
-    margin-right: 7%;
+    margin-right: 5%;
 }  
 
 .p_serv2 {
     grid-area: 2 / 1 / 3 / 2;
-    margin-right: 7%;
+    margin-right: 5%;
     margin-top: 45%;
     font-size: 18px;
 
@@ -574,6 +574,7 @@ ul li h2 {
 .img_serv2 {
     grid-area: 2 / 2 / 3 / 3 ;
     margin-top: 10%;
+    margin-left: 7%;
 }
 
 .rect_servicios2 {
@@ -581,7 +582,7 @@ ul li h2 {
     height: 235px;
     border: solid 3px silver;
     grid-area: 2 / 2 / 3 / 3  ;
-    margin-left: 5%;
+    margin-left: 12%;
     margin-top: 15%;
 }
 
@@ -634,21 +635,21 @@ ul li h2 {
     justify-content: center;
     grid-area: 4 / 1 / 5 / 2;
    margin-top: 47%;
-    margin-right: 8%;
+    margin-right: 6%;
 }  
 
 .p_serv4 {
     grid-area: 4 / 1 / 5 / 2;
     margin-top: 71%;
     font-size: 17.8px;
-    margin-right: 9%;
+    margin-right: 8%;
 }
 
 .img_serv4 {
     grid-area: 4 / 2 / 5 / 3 ;
     margin-top: 22%;
     margin-bottom: 15%;
-    margin-left: 6%
+    margin-left: 8%;
 }
 
 .rect_servicios4 {
@@ -657,6 +658,7 @@ ul li h2 {
     border: solid 3px #dbb7aa;
     grid-area: 4 / 2 / 5 / 3  ;
     margin-top: 16%;
+    margin-left: 3%;
 }
 
 
@@ -829,7 +831,6 @@ section input {
 .galeria_imagenes {
     margin-top: 6%;
     margin-bottom: 6%;
-    
 }
 
 .contenedor_galeria {
@@ -1221,10 +1222,10 @@ text-align: center;
 
 .rect_servicios2 {
     position: absolute;
-    top: 1345px;
-    right: 8%;
+    top: 1343px;
+    right: 16%;
     border: 1px solid silver;
-    width: 75%;
+    width: 76%;
     height: 34%;
 }
 
@@ -1295,13 +1296,13 @@ text-align: center;
 .img_serv4 {
     position: absolute;
     top: 2230px;
-    left: 25px;
+    left: 18px;
 }
 
 .rect_servicios4 {
     position: absolute;
     top: 2280px;
-    left: 25px;
+    left: 18px;
     border: 1px solid #E3C5BB;
 }
 /*cursos*/
@@ -1578,6 +1579,9 @@ text-align: center;
     display: none;
 }
 
+.carousel-item {
+    width: 700px;
+}
 /*contacto*/
 
 .rosa_contacto {
