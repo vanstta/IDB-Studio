@@ -14,7 +14,7 @@ src:url(fuentes/Resitta.ttf);
  /* header y footer */ 
 
  .nav {
-    background: #181818;
+    background: #dd0b0b;
     height: 50px;
     width: 100%;
     display: flex;
@@ -203,8 +203,8 @@ ul button {
 
 
 .final {
-    background-color: #0f0f0f;
-   color: rgba(250, 244, 244, 0.897);
+    background-color: #3b3b3b;
+   color: rgba(236, 236, 236, 0.897);
    padding-top: 20px;
    display: flex;
    justify-content: center;
@@ -494,163 +494,10 @@ ul li h2 {
         box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
 }
 }
-            
-
-/* cursos */ 
-
-.rosa_cursos {
-    position: absolute;
-    background-color:  #E3C5BB;
-    width: 135px;
-    height: 10px;
-    left: 45%;
-    top: 665px;
-}
-
-.cursos_fotos {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 3%;
-}
-.consulta {
-    display: flex;
-    justify-content: center;
-}
-
-.consulta p {
-font-weight: 800;
-}
-
-.datos {
-    display: flex;
-    justify-content: center;
-}
-
-.mail {
-       display: flex;
-    justify-content: center;
-}
-
-.form_cursos {
-    height: 230px;
-    width: 40%;
-    background-color: none  ;
-    border: solid 3px #E3C5BB;
-    justify-content: center;
-    padding-bottom: 25px;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 2%;   
-    margin-bottom: 6%;  
-    margin-left: 30%;
-}
-
-.form_cursos p {
-    font-size: Roboto, sans-serif ;
-    font-weight: 700;
-    padding-top: -50%;   
-    justify-content: center;
-}
-
-.cont_curso {
-        width: 50%;
-        margin-left: 25%;
-        margin-top:  -32px;
-        color: #E3C5BB;
-}
-
-.contactar_curso {
-    display: flex;
-    justify-content: center;  
-    font-family: Roboto, sans-serif ;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 15px; 
-    padding-bottom: 10px;
-    background-color: white; 
-}
-
-section input {
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-color: #721121;
-    background-color: transparent;
-    color: #721121;
-    padding-bottom: 15px;
-    margin-left: 5px;
-}
-
-.datos {
-    margin-top:25px;
-    margin-bottom: 20px;
-    }
-    
-.elegir {
-    margin-top:30px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    }
-    
-.enviar    {
-     
-     color: white;
-     font-size: 20px;
-     border-radius: 5px;
-     padding-top: 7px;
-     padding-bottom: 8px;
-     padding-right: 10px;
-     padding-left: 10px; 
-     width: 30%;
-     justify-content: center;
-     margin-left: 35%;
-     margin-top: 10px;
-    }   
-.card-title {
-    font-family: 'Merriweather', serif;
-    font-weight: 500;
-}
-.cover-small {
-        height: 250px;
-        background-blend-mode: normal;
-}
-.mb-4 {
-    margin-top: 25px;
-}
-.text-focus-in {
-	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	 animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-}
-
-@-webkit-keyframes text-focus-in {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  @keyframes text-focus-in {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-}
   
-     /*servicios*/ 
+   /*servicios*/ 
 
-.rosa_serv {
+   .rosa_serv {
     position: absolute;
     background-color:  #E3C5BB;
     width: 153px;
@@ -812,9 +659,203 @@ section input {
     margin-top: 16%;
 }
 
- /*CONTACTO*/
+
+/* cursos */ 
+
+.rosa_cursos {
+    position: absolute;
+    background-color:  #E3C5BB;
+    width: 135px;
+    height: 10px;
+    left: 45%;
+    top: 665px;
+}
+
+.cursos_fotos {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+}
+.consulta {
+    display: flex;
+    justify-content: center;
+}
+
+.consulta p {
+font-weight: 800;
+}
+
+.datos {
+    display: flex;
+    justify-content: center;
+}
+
+.mail {
+       display: flex;
+    justify-content: center;
+}
+
+.form_cursos {
+    height: 230px;
+    width: 40%;
+    background-color: none  ;
+    border: solid 3px #E3C5BB;
+    justify-content: center;
+    padding-bottom: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;   
+    margin-bottom: 6%;  
+    margin-left: 30%;
+}
+
+.form_cursos p {
+    font-size: Roboto, sans-serif ;
+    font-weight: 700;
+    padding-top: -50%;   
+    justify-content: center;
+}
+
+.cont_curso {
+        width: 50%;
+        margin-left: 25%;
+        margin-top:  -32px;
+        color: #E3C5BB;
+}
+
+.contactar_curso {
+    display: flex;
+    justify-content: center;  
+    font-family: Roboto, sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px; 
+    padding-bottom: 10px;
+    background-color: white; 
+}
+
+section input {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: #721121;
+    background-color: transparent;
+    color: #721121;
+    padding-bottom: 15px;
+    margin-left: 5px;
+}
+
+.datos {
+    margin-top:25px;
+    margin-bottom: 20px;
+    }
+    
+.elegir {
+    margin-top:30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    }
+    
+.enviar    {
+     
+     color: white;
+     font-size: 20px;
+     border-radius: 5px;
+     padding-top: 7px;
+     padding-bottom: 8px;
+     padding-right: 10px;
+     padding-left: 10px; 
+     width: 30%;
+     justify-content: center;
+     margin-left: 35%;
+     margin-top: 10px;
+    }   
+.card-title {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+}
+.cover-small {
+        height: 250px;
+        background-blend-mode: normal;
+}
+.mb-4 {
+    margin-top: 25px;
+}
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	 animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+}
+  
+  
  
- .rosa_contacto {
+
+/*GALERIA*/
+ 
+.rosa_galeria {
+    position: absolute;
+    background-color:  #E3C5BB;
+    width: 135px;
+    height: 10px;
+    left: 45%;
+    top: 665px;
+}
+
+.galeria_imagenes {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    
+}
+
+.contenedor_galeria {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.previo {
+    width: 40px;
+    height: 40px;
+}
+
+.prox {
+    width: 40px;
+    height: 40px;
+} 
+
+/*CONTACTO*/
+ 
+.rosa_contacto {
     position: absolute;
     background-color:  #E3C5BB;
     width: 157px;
@@ -889,48 +930,9 @@ section input {
 }
 
 
-
-/*GALERIA*/
- 
-.rosa_galeria {
-    position: absolute;
-    background-color:  #E3C5BB;
-    width: 135px;
-    height: 10px;
-    left: 45%;
-    top: 665px;
-}
-
-.galeria_imagenes {
-    margin-top: 6%;
-    margin-bottom: 6%;
-    
-}
-
-.contenedor_galeria {
-    display: flex;
-    justify-content: center;
-}
-
-.carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-}
-
-.previo {
-    width: 40px;
-    height: 40px;
-}
-
-.prox {
-    width: 40px;
-    height: 40px;
-} 
-
 /* MOBILE*/
  
-@media (max-width: 667px) {
+@media (max-width: 640px) {
 /* header y footer*/
 
 div h1 {
@@ -1419,9 +1421,188 @@ display: none;
 .final_contacto {
     margin-top: 120px;
 }
-/*Esto corresponde a mobile, iPhone 6,7 y 8. Me falta trabajar sobre la medida de una tablet*/ 
-
-
-
+/*Esto corresponde a mobile, iPhone 6,7 y 8*/ 
 
 }
+ /* TABLET*/ 
+ @media (max-width: 1024px) and (min-width: 768px) {
+
+.final p {
+        font-size: 14px;
+    }
+
+/*index*/
+
+.rosa_index {
+    display: none;
+}
+
+.articulo {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.articulo img {
+    margin-top: -32%;
+    width: auto;
+    margin-right: 13%;
+}
+
+.rectangulo {
+    margin-right: -2%;
+}
+
+.formulario {
+    width: 80%;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.rectangulo_2 {
+   display: none;
+}
+
+.articulo p {
+    display: flex;
+   margin-left: auto;
+   margin-top: 10px;
+   padding: 50px;
+}
+
+.titulo_article {
+margin-top: 45px;
+justify-content: center;
+text-align: center;
+
+}
+
+.suscribir {
+    margin-top: -25px;
+    letter-spacing: 2px;
+}
+
+.p_form {
+    letter-spacing: 2px;
+}
+
+.equipo {
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 35%;
+}
+
+/*servicios*/ 
+
+.rosa_serv {
+    display: none;
+}
+
+.resaltado {
+    margin-bottom: 70px;
+}
+
+.p_serv1 {
+    margin-left: 45px;
+}
+
+.titulo_serv1 {
+    margin-left: 45px;
+}
+
+.titulo_serv2 {
+    margin-left: 20px;
+}
+.p_serv2 {
+    margin-left: 20px;
+}
+
+.img_serv2 {
+    margin-left: 80px;
+}
+
+.rect_servicios2 {
+    margin-left: 50px;
+}
+
+.titulo_serv3 {
+    margin-left: 45px;
+}
+
+.p_serv3 {
+    margin-left: 45px;
+}
+
+.titulo_serv4 {
+    margin-left: 20px;
+}
+
+.p_serv4 {
+    margin-left: 20px;
+}
+
+.img_serv4 {
+    margin-left: 80px;
+}
+
+.rect_servicios4 {
+    margin-left: 50px;
+}
+
+/*cursos*/
+
+.rosa_cursos {
+    display: none;
+}
+
+.cursos_fotos {
+    width: 85%;
+    margin-left: 7.5%;
+}
+
+.form_cursos {
+    width: 50%;
+    margin-left: 25%;
+}
+
+/*galeria*/
+
+.rosa_galeria {
+    display: none;
+}
+
+/*contacto*/
+
+.rosa_contacto {
+    display: none;
+}
+
+.form_contacto {
+    width: 50%;
+}
+
+.enviar_cont {
+    margin-top: 6.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
