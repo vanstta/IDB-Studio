@@ -14,7 +14,7 @@ src:url(fuentes/Resitta.ttf);
  /* header y footer */ 
 
  .nav {
-    background: #dd0b0b;
+    background: #3b3b3b;
     height: 50px;
     width: 100%;
     display: flex;
