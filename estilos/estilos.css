@@ -228,7 +228,7 @@ ul button {
     
 }
 
-.col{
+.col_in{
     margin-right: 70px;
     margin-left: 70px;
 
@@ -1355,7 +1355,9 @@ text-align: center;
 .rosa_cursos {
     display: none;
     }
-    
+.cursos_fotos {
+    justify-content: center;
+}   
 
 .enviar {
    background-color: black;
