@@ -193,6 +193,10 @@ ul button {
     border: none;
 }
 
+.footer_mobile {
+    display: none;
+}
+
 .final h3 {
     font-size: 14px;
     display: flex;
@@ -208,7 +212,7 @@ ul button {
    padding-top: 20px;
    display: flex;
    justify-content: center;
-   align-items: flex-start;
+   align-items: center;
 }
 
 .final p {
@@ -216,12 +220,20 @@ ul button {
     font-size: 12px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    text-align: center;
 }
 .row {
-    justify-content: center;
-   align-items: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    
 }
+
+.col{
+    margin-right: 70px;
+    margin-left: 70px;
+
+}
+
 .home {
     color: rgb(122, 121, 121);
     text-decoration: none; 
@@ -958,6 +970,39 @@ div h1 {
     
 }
 
+.footer {
+    display: none;
+}
+
+.footer_mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_mobile p {
+   font-size: 14px;
+   line-height: 15px;
+}
+
+.redes_mobile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.redes_mobile img {
+    height: 25px;
+    width: 25px;
+   margin: 10px;
+}
+
 .final_serv {
 margin-top: 1850px;
 }
@@ -1422,6 +1467,8 @@ display: none;
 .final_contacto {
     margin-top: 120px;
 }
+
+
 /*Esto corresponde a mobile, iPhone 6,7 y 8*/ 
 
 }
@@ -1431,7 +1478,9 @@ display: none;
 .final p {
         font-size: 14px;
     }
-
+    .footer_mobile {
+        display: none;
+    }
 /*index*/
 
 .rosa_index {
@@ -1493,10 +1542,15 @@ text-align: center;
     letter-spacing: 2px;
 }
 
+.equi {
+    display: flex;
+    justify-content: center;
+    
+}
 .equipo {
-    margin-top: 50px;
+    margin-top: 20px;
     width: 70%;
-    margin-left: 15%;
+    margin-left: 5%;
     margin-bottom: 35%;
 }
 
@@ -1595,18 +1649,5 @@ text-align: center;
 .enviar_cont {
     margin-top: 6.5%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  }
