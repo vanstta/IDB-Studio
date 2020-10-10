@@ -1472,7 +1472,7 @@ display: none;
     margin-top: 120px;
 }
  }
-@media (max-width: 413px) and (min-width: 375px) {
+@media (max-width: 413px) {
 /* header y footer*/
 /*ihone 6,7 y 8*/
 div h1 {
